@@ -61,7 +61,6 @@ stages:
         Dockerfile: '**/Dockerfile'
         tags: |
           $(tag)
-
 - stage: Deploy
   displayName: Deploy stage
   dependsOn: Build
